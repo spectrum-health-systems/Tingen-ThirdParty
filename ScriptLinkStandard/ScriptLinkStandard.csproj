@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net461;net48</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Copyright></Copyright>
+    <PackageProjectUrl>https://github.com/rcskids/ScriptLinkStandard</PackageProjectUrl>
+    <PackageLicenseUrl></PackageLicenseUrl>
+    <Authors>Rebekah Children's Services</Authors>
+    <Company>Rebekah Children's Services</Company>
+    <Description>A class library for Netsmart myAvatar ScriptLink API development.</Description>
+    <PackageTags>Netsmart myAvatar, ScriptLink</PackageTags>
+    <SignAssembly>true</SignAssembly>
+    <Version>1.0.0</Version>
+    <AssemblyVersion>$(Version)</AssemblyVersion>
+    <FileVersion>$(Version)</FileVersion>
+    <AssemblyOriginatorKeyFile>ScriptLinkStandard.snk</AssemblyOriginatorKeyFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="NETStandard.Library" Version="2.0.0" />
+  </ItemGroup>
+
+</Project>
