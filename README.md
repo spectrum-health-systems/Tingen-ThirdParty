@@ -1,2 +1,3 @@
 # Tingen.ThirdParty
-Third party components for the Tingen web service
+
+Third party components for the Tingen web service.
