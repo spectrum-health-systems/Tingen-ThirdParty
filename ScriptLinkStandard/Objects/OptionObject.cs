@@ -1,12 +1,4 @@
-﻿
-// Abatab v23.7.0.0
-// A custom web service/framework for myAvatar.
-// https://github.com/spectrum-health-systems/Abatab
-// Copyright (c) A Pretty Cool Program. All rights reserved.
-// Licensed under the Apache 2.0 license.
-
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using ScriptLinkStandard.Helpers;
@@ -408,7 +400,7 @@ namespace ScriptLinkStandard.Objects
         public void SetFieldValue(string fieldNumber, string fieldValue) => this.Forms = ScriptLinkHelpers.SetFieldValue(this, fieldNumber, fieldValue).Forms;
 
         /// <summary>
-        /// Sets the FieldValue of a <see cref="FieldObject"/> in the <see cref="OptionObject"/> 
+        /// Sets the FieldValue of a <see cref="FieldObject"/> in the <see cref="OptionObject"/>
         /// </summary>
         /// <param name="formId"></param>
         /// <param name="rowId"></param>
